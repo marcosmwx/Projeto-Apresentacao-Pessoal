@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap'); /* Utilização de um metodo diferente para colocar uma letra estilizada    */
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color:rgba(201, 142, 53, 0.75);
+    box-shadow: -15px -5px 46px 20px #70531A;
+    border-radius: 30px;
+    margin: 15px;
+}
+.max{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    height:max-content;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.max h1 {
+    font-size: max(25px, 5vw);
+    border-radius: 10px;
+}
+.max2 h2 {
+    display: flex;
+    justify-content: center;
+    height:max-content;
+    font-size: max(20px, 2vw);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif; 
+}
+.texto {
+    
+    max-width:500px;
+    position: absolute;
+    top: 60%;
+    left:5%;
+    font-size: min(15px, 20vw);
+    font-family: 'Roboto', sans-serif;
+}
+h3:hover{
+    background-color:rgba(201, 142, 53, 0.75);
+    box-shadow: -15px -5px 46px 20px #b39252;
+    border-radius: 10px;
+}
+.fotoprincipal {
+    text-align: center;
+    object-fit: contain;
+}
+.iconesprof img{
+    display:flex;
+}
+.iconesprof {
+    display: inline-flex;
+}
+.iconesprof img:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.iconessociais{
+    position:absolute;
+    left: 70%;
+    top: 40%;
+}
+.iconessociais img:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+}
+.github{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+}
+.github img:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#menulista{
+    background-color: rgb(99, 60, 3);
+    border-radius:15px;
+    font-family: sans-serif;
+    font-size: min(18px, 5vw);
+    text-align: center;
+}
+
+#menulista ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menulista ul li {
+    display: inline;
+}
+
+#menulista ul li a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+    border-radius: 40px;
+}
+
+#menulista ul li a:hover {
+    background-color: rgb(128, 109, 4);
+}
+#menulista ul li:last-child a {
+    float: right;
+    margin: 0;
+}
